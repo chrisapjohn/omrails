@@ -10,16 +10,17 @@
 	      </a>
 	 
 	      <!-- Be sure to leave the brand out there if you want it shown -->
-	      <a class="brand" href="#">MavenMarket</a>
+	      <a class="brand" href="#">ChrisPin</a>
 	 
 	      <!-- Everything you want hidden at 940px or less, place within here -->
 	      <div class="nav-collapse collapse">
 	       	<ul class="nav">
       			<li><%= link_to "Home",root_path %></li>
-				<li><%= link_to "About",about_path %></li>
+				<li><%= link_to "Pins",pins_path %></li>
     		</ul>
     		<ul class="nav pull-right">
       		<% if user_signed_in? %>
+					<li><%= link_to "Pin +", new_pin_path %></li>
       		<li><%= link_to "Edit Profile", edit_user_registration_path %></li>
       		<li><%= link_to "Logout", destroy_user_session_path, method: :delete %></li>
       		<% else %>
