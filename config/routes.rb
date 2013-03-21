@@ -8,7 +8,7 @@ Omrails::Application.routes.draw do
 
   get 'about' => 'pages#about'
 
-  root :to => 'pages#home'
+  root :to => 'pins#index'
 
   devise_for :users
   devise_scope :user do
