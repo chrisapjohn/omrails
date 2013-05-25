@@ -1,0 +1,14 @@
+development:
+  bucket: chris_pin
+  access_key_id: AKIAJDO5R6IUYW5QUMNQ
+  secret_access_key: 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
+
+test:
+  bucket: chris_pin
+  access_key_id: AKIAJDO5R6IUYW5QUMNQ
+  secret_access_key: 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
+
+production:
+  bucket: chris_pin
+  access_key_id: AKIAJDO5R6IUYW5QUMNQ
+  secret_access_key: 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
